@@ -21,7 +21,7 @@ def arg_parser():
                     "8: KEGG orthologues annotation\n9: Pfam annotation\n10: Contigs encoding SSU rRNA\n11: MAPseq SSU assignments\n12: OTUs, counts and taxonomic assignments for SSU rRNA\n"+
                     "13: Contigs encoding LSU rRNA\n14: MAPseq LSU assignments\n15: OTUs, counts and taxonomic assignments for LSU rRNA\n17: antiSMASH annotation\n18: antiSMASH annotation"+
                     "19: Genome Properties annotation\n20: KEGG pathway annotation" )
-
+    parser.add_argument('-o', '--output_dir', help='path/to/output_folder/')
 
     args = parser.parse_args()
     return args
@@ -189,6 +189,7 @@ def main():
     args = arg_parser()
     download_options = set([options[i] for i in  args.download])
     # Make directories.
+    #TODO: choose output folder
     os.makedirs('analyses_assemblies', exist_ok=True)
     os.makedirs('studies_name_and_abstract', exist_ok=True)
     os.makedirs('samples_metadata', exist_ok=True)
@@ -289,8 +290,8 @@ def main():
                         out_file = ('samples_metadata/'
                                 f'{sample.accession}.metadata')
                         write_sample_metadata(sample, out_file) #should be removed
-                        open(samples_file, 'a') as samples_fh:
-                            write_samples_file(sample, samples_fh) #should be removed
+                        # open(samples_file, 'a') as samples_fh:
+                        # write_samples_file(sample, samples_fh) #should be removed
 
                         samples_trace.add(sample.accession) 
 
@@ -301,7 +302,20 @@ def main():
                 for errors in out_data["errors"]:
                     with open(error_file_1, 'a') as errf1:
                         errf1.write(errors)
-                        
+    
+    #TODO: move outputfolder to desired output folder
+    try:
+        os.rename('./additional', f'{args.output_folder}/additional')
+        os.rename('./analyses_assemblies', f'{args.output_folder}/analyses_assemblies')
+        os.rename('./studies_name_and_abstract', f'{args.output_folder}/studies_name_and_abstract')
+        os.rename('./samples_metadata', f'{args.output_folder}/samples_metadata')
+    except:
+        os.makedirs('output_folder', exist_ok=True)
+        os.rename('./additional', './output_folder/additional')
+        os.rename('./analyses_assemblies', './output_folder/analyses_assemblies')
+        os.rename('./studies_name_and_abstract', './output_folder/studies_name_and_abstract')
+        os.rename('./samples_metadata', './output_folder/samples_metadata')            
 
 if __name__ == '__main__':
     main()
+

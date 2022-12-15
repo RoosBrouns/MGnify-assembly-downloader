@@ -1,0 +1,4 @@
+study.accession	study.bioproject	study.secondary_accession	study.centre_name	study.data_origination	study.last_update	study.public_release_date	study.samples_count
+MGYS00002008	PRJEB22493	ERP104174	EMBL-EBI	SUBMITTED	2022-01-16T11:17:46	None	136
+MGYS00005034	PRJEB29894	ERP112251	EMG	SUBMITTED	2020-06-16T10:42:56	None	33
+MGYS00003598	PRJEB25958	ERP107925	EMG	SUBMITTED	2020-05-28T13:57:02	None	94

@@ -1,0 +1,18 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+5820	6.0	sk__Bacteria	2
+103557	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Corynebacteriales	85007
+172160	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Corynebacteriales;f__;g__Lawsonella;s__Lawsonella_clevelandensis	1528099
+161961	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Corynebacteriales;f__Corynebacteriaceae;g__Corynebacterium	1716
+190869	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Propionibacteriales;f__Propionibacteriaceae;g__Propionibacterium	1743
+53573	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Streptomycetales;f__Streptomycetaceae;g__Streptomyces;s__Streptomyces_sp._NRRL_F-6677	1463879
+46186	1.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus	1279
+13082	1.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus	1301
+55349	1.0	sk__Bacteria;k__;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Leptotrichiaceae;g__Leptotrichia	32067
+8060	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae	82115
+52402	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria	1236
+50224	1.0	sk__Bacteria;k__;p__Synergistetes;c__Synergistia;o__Synergistales	649776
+100053	1.0	sk__Eukaryota	2759
+25778	1.0	sk__Eukaryota;k__Fungi	4751
+108111	1.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Malasseziomycetes;o__Malasseziales;f__Malasseziaceae;g__Malassezia;s__Malassezia_restricta	76775
+139706	1.0	sk__Eukaryota;k__Metazoa;p__Chordata;c__Mammalia	40674

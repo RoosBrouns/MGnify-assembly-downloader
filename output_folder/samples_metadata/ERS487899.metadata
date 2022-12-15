@@ -1,0 +1,36 @@
+temperature	20.5251	
+project name	Tara Oceans expedition (2009-2013)	
+geographic location (longitude)	-6.5669	
+geographic location (depth)	5	m
+collection date	2009-09-15	
+environment (biome)	marine biome (ENVO:00000447)	
+environment (feature)	surface water layer (ENVO:00002042)	
+environment (material)	&quot;saline water (ENVO:00002010), including plankton (ENVO:xxxxxxxx)&quot;	
+environmental package	water	
+depth	5.0	
+salinity	36.6324	
+geographic location (latitude)	36.5533	
+NCBI sample classification	408172	
+instrument model	Illumina HiSeq 2000	
+ENA checklist	ERC000030	
+latitude end	35.5571	DD
+longitude end	-6.5586	DD
+marine region	(search radius=5 degrees) Marine Ecoregion:Alboran Sea (MRGID:3324)	
+protocol label	BACT_NUC-DNA(100L)_W0.22-1.6	
+sampling campaign	TARA_20090913Z	
+sampling platform	SV Tara	
+chlorophyll sensor	0.078	mg Chl/m3
+citation	tbd	
+event date/time end	2009-09-15T14:30	
+event date/time start	2009-09-15T11:30	
+event label	TARA_20090915T1130Z_004_EVENT_PUMP	
+further details	tbd	
+last update date	2014-05-01Z	
+nitrate sensor	99999	µmol/L
+oxygen sensor	99999	µmol/Kg
+salinity sensor	36.6324	psu
+sample collection device	PUMP (High Volume Peristaltic Pump)	
+sample status	This version can be used to provide data discovery services	
+sampling station	TARA_004	
+size fraction lower threshold	0.22	
+size fraction upper threshold	1.6	

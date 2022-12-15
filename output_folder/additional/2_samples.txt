@@ -1,0 +1,1 @@
+sample.accession	';'.join([study.accession for study in sample.studies])	sample.sample_name	sample.sample_alias	sample.sample_desc	sample.biome.lineage	sample.environment_biome	sample.environment_feature	sample.environment_material	sample.geo_loc_name	sample.latitude	sample.longitude	sample.analysis_completed	sample.last_update	sample.species	sample.host_tax_id

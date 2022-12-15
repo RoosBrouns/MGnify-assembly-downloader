@@ -1,0 +1,15 @@
+# Constructed from biom file
+# OTU ID	SSU_rRNA	taxonomy	taxid
+5820	3.0	sk__Bacteria	2
+190869	1.0	sk__Bacteria;k__;p__Actinobacteria;c__Actinobacteria;o__Propionibacteriales;f__Propionibacteriaceae;g__Propionibacterium	1743
+93849	1.0	sk__Bacteria;k__;p__Cyanobacteria	1117
+121638	1.0	sk__Bacteria;k__;p__Cyanobacteria;c__;o__Nostocales;f__Symphyonemataceae;g__Loriellopsis;s__Loriellopsis_cavernicola	988946
+196428	1.0	sk__Bacteria;k__;p__Firmicutes	1239
+69107	1.0	sk__Bacteria;k__;p__Firmicutes;c__Bacilli	91061
+220917	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Paracoccus	265
+186210	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae	468
+5882	1.0	sk__Bacteria;k__;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas;s__Pseudomonas_moraviensis	321662
+100053	1.0	sk__Eukaryota	2759
+54944	2.0	sk__Eukaryota;k__Fungi;p__Basidiomycota;c__Malasseziomycetes;o__Malasseziales;f__Malasseziaceae;g__Malassezia	55193
+139706	1.0	sk__Eukaryota;k__Metazoa;p__Chordata;c__Mammalia	40674
+49062	1.0	sk__Eukaryota;k__Viridiplantae;p__Streptophyta;c__Magnoliopsida	3398
