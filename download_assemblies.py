@@ -290,8 +290,8 @@ def main():
                         out_file = ('samples_metadata/'
                                 f'{sample.accession}.metadata')
                         write_sample_metadata(sample, out_file) #should be removed
-                        # open(samples_file, 'a') as samples_fh:
-                        # write_samples_file(sample, samples_fh) #should be removed
+                        with open(samples_file, 'a') as samples_fh:
+                            write_samples_file(sample, samples_fh) #should be removed
 
                         samples_trace.add(sample.accession) 
 
